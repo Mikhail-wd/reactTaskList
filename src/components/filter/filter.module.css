@@ -1,0 +1,37 @@
+.filter__list {
+    width: 960px;
+    display: flex;
+    justify-content: start;
+    gap: 18px;
+    align-items: center;
+}
+
+.all,
+.done,
+.in__process {
+
+    padding: 6px 12px;
+    font-size: 18px;
+    border-radius: 12px;
+}
+
+.all {
+    color: white;
+    border: 2px solid white;
+}
+
+.done {
+    color: #23dd33;
+    border: 2px solid #23dd33;
+}
+
+.in__process {
+    color: #fd4343;
+    border: 2px solid #fd4343;
+}
+
+.all:hover,
+.done:hover,
+.in__process:hover {
+    cursor: pointer;
+}

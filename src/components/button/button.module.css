@@ -1,0 +1,23 @@
+.button {
+    position: relative;
+    background-color: #8ab8fc;
+    border-radius: 8px;
+    padding: 6px 21px;
+    border: 1px solid #ffffff33;
+    color: white;
+    font-size: 18px;
+}
+
+.button {
+    box-shadow: 2px 2px #2e2e2e;
+    transition: 0.25s ease-in-out;
+}
+
+.button:active {
+    transform: translate(2px, 2px);
+    box-shadow: none;
+}
+
+.button:hover {
+    cursor: pointer;
+}

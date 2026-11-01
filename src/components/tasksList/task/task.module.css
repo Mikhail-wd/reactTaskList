@@ -1,0 +1,45 @@
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task__content {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.in__progress {
+    width: fit-content;
+    padding: 8px;
+    border-radius: 7px;
+    border: solid 2px #fd4343;
+    color: #fd4343;
+}
+
+.done {
+    width: fit-content;
+    padding: 8px;
+    border-radius: 7px;
+    border: solid 2px #23dd33;
+    color: #23dd33;
+}
+
+.status {
+    transition: 0.25s ease-in-out;
+}
+
+.status {
+    text-wrap: nowrap;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.status:active {
+    transform: scaleX(0.95);
+}
+
+.status:hover {
+    cursor: pointer;
+}
